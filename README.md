@@ -60,22 +60,6 @@ Updates the price of a transaction with the given ID.
 - **200 OK**  
   Returns the updated transaction object.
 
-- **400 Bad Request**  
-  If validation fails, returns:
-  ```json
-  {
-    "errors": { ... }
-  }
-  ```
-
-- **404 Not Found**  
-  If the transaction does not exist:
-  ```json
-  {
-    "message": "Transaction not found"
-  }
-  ```
-
 #### Example
 
 ```bash
